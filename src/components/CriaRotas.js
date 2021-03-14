@@ -15,7 +15,7 @@ class PersonList extends Component {
     
   
     componentDidMount() {
-      axios.get(`http://murmuring-shore-51053.herokuapp.com/contatos/`)
+      axios.get(`https://murmuring-shore-51053.herokuapp.com/contatos/`)
         .then(res => {
           const persons = res.data;
           this.setState({ persons });
