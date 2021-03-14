@@ -70,48 +70,48 @@ class CriaEntrega extends Component {
   }
 
 
-render() {
-  return (
-    <div className='container'>
-      <Nav />
-      <div>
-        <Input
-          placeholder="nome"
-          type="text"
-          name="nome"
-          value={this.state.nome}
-          onChange={this.onChangeNome}
-        />
+  render() {
+    return (
+      <div className='container'>
+        <Nav />
+        <div>
+          <Input
+            placeholder="nome"
+            type="text"
+            name="nome"
+            value={this.state.nome}
+            onChange={this.onChangeNome}
+          />
 
-        <Input
-          placeholder="entrega"
-          type="text"
-          name="entrega"
-          value={this.state.entrega}
-          onChange={this.onChangeEntrega}
-        />
+          <Input
+            placeholder="entrega"
+            type="text"
+            name="entrega"
+            value={this.state.entrega}
+            onChange={this.onChangeEntrega}
+          />
 
-        <Input
-          placeholder="origem"
-          type="text"
-          name="origem"
-          value={this.state.origem}
-          onChange={this.onChangeOrigem}
-        />
+          <Input
+            placeholder="origem"
+            type="text"
+            name="origem"
+            value={this.state.origem}
+            onChange={this.onChangeOrigem}
+          />
 
-        <Input
-          placeholder="destino"
-          type="text"
-          name="destino"
-          value={this.state.destino}
-          onChange={this.onChangeDestino}
-        />
+          <Input
+            placeholder="destino"
+            type="text"
+            name="destino"
+            value={this.state.destino}
+            onChange={this.onChangeDestino}
+          />
 
-        <Button color="primary" onClick={this.handleRegister}>Registrar</Button>
+          <Button color="primary" onClick={this.handleRegister}>Registrar</Button>
+        </div>
       </div>
-    </div>
-  );
-}
+    );
+  }
 }
 
 export default CriaEntrega;
