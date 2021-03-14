@@ -19,3 +19,9 @@ Na barra de navegação há uma opção para "Cadastrar Entrega" onde um formul�
 * Implementar um cadastro com validação dos dados nos campos, por exemplo, campo de data aceitar somente o formato de data, etc.
 * Implementar a abertura do mapa em uma nova aba/janela do navegador ou por um pop over ao solicitar a rota.
 * Melhorias no CSS.
+
+Infelizmente não consegui alocar tempo necessário para implementar estas alterações entretanto meu objetivo foi, dentro do espaço de tempo que eu dispunha, entregar um app com as funcionalidades solicitadas no PDF do desafio. 
+
+Agradeço a oportunidade de ter participado deste desafio e espero que meu teste contemple as suas expectativas. 
+
+Qualquer dúvida é só me chamar pelo @tomipasin no Telegram ou pelo tomipasin@gmail.com.
