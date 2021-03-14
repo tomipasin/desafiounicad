@@ -48,7 +48,7 @@ class CriaEntrega extends Component {
     console.log(this.state.nome, this.state.entrega, this.state.origem, this.state.destino)
 
     const userObject = {
-      "nome": this.state.name,
+      "nome": this.state.nome,
       "entrega": this.state.entrega,
       "origem": this.state.origem,
       "destino": this.state.destino
