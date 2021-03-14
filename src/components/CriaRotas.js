@@ -21,12 +21,6 @@ class PersonList extends Component {
           this.setState({ persons });
           
         })
-
-
-        
-
-    
-        
     }
   
     renderClientes(){

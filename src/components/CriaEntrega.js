@@ -1,5 +1,4 @@
 import React, { useState, useRef, Component } from 'react';
-//import AuthService from './criarEntregaController'
 import { Input, Button } from 'reactstrap';
 import axios from "axios";
 import Nav from './Nav';
