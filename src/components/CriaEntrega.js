@@ -55,7 +55,7 @@ class CriaEntrega extends Component {
     };
     console.log(userObject)
 
-    axios.post('https://murmuring-shore-51053.herokuapp.com/contatos/', userObject)
+    axios.post('https://murmuring-shore-51053.herokuapp.com/contatos/', userObject, {headers: {"Access-Control-Allow-Origin": "*"}})
       .then((res) => {
         console.log(res.data)
       }).catch((error) => {
