@@ -53,6 +53,7 @@ class CriaEntrega extends Component {
       origem: this.state.origem,
       destino: this.state.destino
     };
+    console.log(userObject)
 
     axios.post('https://murmuring-shore-51053.herokuapp.com/contatos/', userObject)
       .then((res) => {
