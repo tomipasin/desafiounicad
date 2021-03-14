@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Input, Button } from 'reactstrap';
+import { Input, Button, Card, CardImg, CardText, CardBody,
+  CardTitle, CardSubtitle } from 'reactstrap';
 import axios from "axios";
 import Nav from './Nav';
 
@@ -74,8 +75,15 @@ class CriaEntrega extends Component {
   render() {
     return (
       <div className='container'>
-        <Nav />
-        <div>
+ <Nav />
+ <br></br>
+
+<div>
+      <Card className='carde'>
+        
+        <CardBody>
+          <CardTitle tag="h5">Cadastrar nova entrega</CardTitle>
+          <div>
           <Input
             placeholder="nome"
             type="text"
@@ -83,7 +91,7 @@ class CriaEntrega extends Component {
             value={this.state.nome}
             onChange={this.onChangeNome}
           />
-
+<br></br>
           <Input
             placeholder="entrega"
             type="text"
@@ -91,7 +99,7 @@ class CriaEntrega extends Component {
             value={this.state.entrega}
             onChange={this.onChangeEntrega}
           />
-
+<br></br>
           <Input
             placeholder="origem"
             type="text"
@@ -99,7 +107,7 @@ class CriaEntrega extends Component {
             value={this.state.origem}
             onChange={this.onChangeOrigem}
           />
-
+<br></br>
           <Input
             placeholder="destino"
             type="text"
@@ -107,9 +115,20 @@ class CriaEntrega extends Component {
             value={this.state.destino}
             onChange={this.onChangeDestino}
           />
-
-          <Button color="primary" onClick={this.handleRegister}>Registrar</Button>
+          <br></br>
+          
         </div>
+          
+        <Button color="primary" onClick={this.handleRegister}>Registrar</Button>
+        </CardBody>
+      </Card>
+    </div>
+
+
+
+
+       
+        
       </div>
     );
   }

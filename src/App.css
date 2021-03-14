@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.carde{
+  background-color: #4380fa75;
+  width: 100%;
+  margin-top: 0px auto;
+  margin-left: 0px auto;
+  padding-top: auto;
+}

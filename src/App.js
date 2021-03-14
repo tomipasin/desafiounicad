@@ -1,6 +1,7 @@
 import Nav from './components/Nav'
 import { PersonList } from './components/CriaRotas';
 import { withScriptjs } from "react-google-maps";
+import './App.css'
 
 function App() {
   const MapLoader = withScriptjs(PersonList);
