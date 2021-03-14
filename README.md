@@ -1,10 +1,9 @@
 # Desafio UNICAD
-A proposta do desafio é criar uma versão simplificada de um app de entregas com duas das suas funções: criar registro de entregas e exibir uma rota no mapa para cada uma delas, ao ser solicitado.
+A proposta do desafio é criar uma versão simplificada de um app de entregas com duas das suas funções: criar registro de entregas e exibir uma rota no mapa para cada uma delas, ao ser solicitado. Tudo está com deploy feito no Heroku.
 
+#### Demo: <a href="https://testeunicadtomipasin.herokuapp.com/">https://testeunicadtomipasin.herokuapp.com/</a>
 
-### Demo: <a href="https://testeunicadtomipasin.herokuapp.com/">https://testeunicadtomipasin.herokuapp.com/</a>
-
-### Back end: <a href="https://github.com/tomipasin/unicadbe">https://github.com/tomipasin/unicadbe</a>
+#### Back end: <a href="https://github.com/tomipasin/unicadbe">https://github.com/tomipasin/unicadbe</a>
 
 
 ## Como fiz?
@@ -16,7 +15,7 @@ A página inicial mostra um mapa centralizado em Porto Alegre e dois registros d
 Na barra de navegação há uma opção para "Cadastrar Entrega" onde um formulário (bem) simples é mostrado. Nele o usuário deve inserir: nome, data da entrega, endereço de orígem e endereço de destino. Ao clicar no botão um registro é criado no banco de dados e ao retornar à página inicial ele deve ser exibido, sendo possível gerar sua rota.
 
 ## O que faltou e não foi feito por falta de tempo?
-Implementar melhorias na usabilidade como a possibilidade de atualizar ou deletar um registro por meio de botões na tabela. Hoje isso só pode ser feito por ação direta no DB.
-Implementar um cadastro com validação dos dados nos campos, por exemplo, campo de data aceitar somente o formato de data, etc.
-Implementar a abertura do mapa em uma nova aba/janela do navegador ou por um pop over ao solicitar a rota.
-Melhorias no CSS.
+* Implementar melhorias na usabilidade como a possibilidade de atualizar ou deletar um registro por meio de botões na tabela. Hoje isso só pode ser feito por ação direta no DB.
+* Implementar um cadastro com validação dos dados nos campos, por exemplo, campo de data aceitar somente o formato de data, etc.
+* Implementar a abertura do mapa em uma nova aba/janela do navegador ou por um pop over ao solicitar a rota.
+* Melhorias no CSS.
