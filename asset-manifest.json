@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/desafiounicad/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/desafiounicad/static/js/main.3dc027ae.chunk.js",
-    "main.js.map": "/desafiounicad/static/js/main.3dc027ae.chunk.js.map",
+    "main.js": "/desafiounicad/static/js/main.c6020ba5.chunk.js",
+    "main.js.map": "/desafiounicad/static/js/main.c6020ba5.chunk.js.map",
     "runtime-main.js": "/desafiounicad/static/js/runtime-main.4f178e47.js",
     "runtime-main.js.map": "/desafiounicad/static/js/runtime-main.4f178e47.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/desafiounicad/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.d2dde77e.chunk.js": "/desafiounicad/static/js/2.d2dde77e.chunk.js",
-    "static/js/2.d2dde77e.chunk.js.map": "/desafiounicad/static/js/2.d2dde77e.chunk.js.map",
+    "static/js/2.3b468925.chunk.js": "/desafiounicad/static/js/2.3b468925.chunk.js",
+    "static/js/2.3b468925.chunk.js.map": "/desafiounicad/static/js/2.3b468925.chunk.js.map",
     "static/js/3.691d9a20.chunk.js": "/desafiounicad/static/js/3.691d9a20.chunk.js",
     "static/js/3.691d9a20.chunk.js.map": "/desafiounicad/static/js/3.691d9a20.chunk.js.map",
     "index.html": "/desafiounicad/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/desafiounicad/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.6dea0f05.chunk.css.map": "/desafiounicad/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.d2dde77e.chunk.js.LICENSE.txt": "/desafiounicad/static/js/2.d2dde77e.chunk.js.LICENSE.txt"
+    "static/js/2.3b468925.chunk.js.LICENSE.txt": "/desafiounicad/static/js/2.3b468925.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4f178e47.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.d2dde77e.chunk.js",
+    "static/js/2.3b468925.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.3dc027ae.chunk.js"
+    "static/js/main.c6020ba5.chunk.js"
   ]
 }
