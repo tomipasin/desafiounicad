@@ -1,4 +1,4 @@
-import React, { useState, useRef, Component } from 'react';
+import React, { Component } from 'react';
 import { Input, Button } from 'reactstrap';
 import axios from "axios";
 import Nav from './Nav';
@@ -55,7 +55,7 @@ class CriaEntrega extends Component {
     };
     console.log(userObject)
 
-    axios.post('https://murmuring-shore-51053.herokuapp.com/contatos/', userObject, {headers: {"Access-Control-Allow-Origin": "*"}})
+    axios.post('https://murmuring-shore-51053.herokuapp.com/contatos/', {headers: {"Content-type": "application/json"}}, userObject)
       .then((res) => {
         console.log(res.data)
       }).catch((error) => {
